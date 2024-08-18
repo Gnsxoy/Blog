@@ -5,7 +5,7 @@ import { FlexBlock } from "s@/common";
 export const QRCode: FC = () => {
   const [thirdParty] = useState({
     name: "微信",
-    qrUrl: "https://img.gnsxoy.com/wx.jpg",
+    qrUrl: "https://img.gnsxoy.com/info/wx.jpg",
     width: "38rem",
   });
 
