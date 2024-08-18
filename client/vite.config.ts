@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path';
 
 // https://vitejs.dev/config/
-export default defineConfig(({ command, mode, ssrBuild }) => {
+export default defineConfig(({ command, mode }) => {
   const {
     VITE_APP_PUBLIC_PATH,
     VITE_APP_BASE_URL,
