@@ -1,0 +1,44 @@
+.mark__editor--box {
+  background-color: #f6f6f6;
+}
+
+.mark__editor--box .ant-form button[aria-checked="true"] .ant-switch-inner {
+  background-color: #42b983;
+}
+
+.mark__editor--box .ant-form-item-label {
+  width: 12rem;
+}
+
+.mark__editor--box .ant-form-item input,
+.mark__editor--box .ant-form-item textarea,
+.mark__editor--box .ant-select {
+  width: 39rem;
+  background-color: #fff;
+  border-color: #999;
+  border-style: solid;
+}
+
+.mark__editor--box .ant-select {
+  border-radius: 7px;
+}
+.mark__editor--box .ant-select .ant-select-selector {
+  border-color: transparent;
+}
+
+.mark__editor--box .w-md-editor {
+  border-color: #999;
+  border-style: solid;
+  border-radius: 5px;
+  height: 100vh !important;
+  min-height: 700px !important;
+}
+
+.mark__editor--box .w-md-editor-toolbar {
+  height: 60px;
+}
+
+.mark__editor--box .w-md-editor-toolbar svg {
+  width: 20px;
+  height: 16px;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "gnsxoy_blog",
+  "version": "1.0.0",
+  "description": "学习记录、技术分享",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "Gnsxoy",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.1.1",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,css,md,ts,tsx}": "prettier --write"
+  }
+}

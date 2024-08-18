@@ -1,0 +1,41 @@
+html {
+  /* 默认样式 16px */
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco,
+    Consolas, "Courier New", monospace;
+}
+
+.ant-spin-dot i {
+  background-color: #42b983 !important;
+}
+.ant-spin-text {
+  margin-top: 0.5rem;
+  color: #42b983 !important;
+}
+
+.page_loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.page_loading > span {
+  margin: 2rem 0;
+}
